@@ -1,11 +1,10 @@
-﻿using PraticeAlgorithm.Problems;
-using PraticeAlgorithm.Problems.Problem002_ValidAnagram;
+﻿using PraticeAlgorithm.Problems.Problem003_GroupAnagrams;
 
 public class Program
 {
     static void Main()
     {
-        Problem002_ValidAnaGram problem = new Problem002_ValidAnaGram();
-        var result = problem.Solve("nagaram", "anagram");
+        Problem003_GroupAnagrams problem = new Problem003_GroupAnagrams();
+        var result = problem.Solve02(["eat", "tea", "tan", "ate", "nat", "bat"]);
     }
 }

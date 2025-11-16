@@ -1,7 +1,4 @@
-﻿
-using PraticeAlgorithm.Interfaces;
-
-namespace PraticeAlgorithm.Problems.Problem002_ValidAnagram
+﻿namespace PraticeAlgorithm.Problems.Problem002_ValidAnagram
 {
     public class Problem002_ValidAnaGram
     {
