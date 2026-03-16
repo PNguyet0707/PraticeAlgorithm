@@ -1,0 +1,49 @@
+s,t,expected
+anagram,nagaram,True
+rat,car,False
+,"",True
+a,ab,False
+abc,cba,True
+listen,silent,True
+hello,ohlle,True
+test,tset,True
+aaa,aaa,True
+abc,ab,False
+abcd,dcba,True
+abcd,abce,False
+, ,True
+ab,ba,True
+ab,ca,False
+xyz,zyx,True
+abcde,edcba,True
+abcde,abcdf,False
+qwerty,ytrewq,True
+abcabc,cababc,True
+abcd,abcde,False
+Aa,aA,True
+aA,Aa,True
+abc,abcc,False
+zzzz,zzzz,True
+abab,baba,True
+abc,acb,True
+longstringlongstring,gnirtsgnolgnirtsgnol,True
+numbers123,321srebmun,True
+mixedCase,MixedCase,False
+space here,here space,True
+punct!,!punct,True
+unicodeå,åunicode,True
+palindrome,emordnilap,True
+short,shorts,False
+repeatrepeat,epaetpteraer,False
+pair1,pair2,False
+same,same,True
+one,two,False
+onetwo,twoneo,True
+empty, ,False
+ , ,True
+abc def,def abc,True
+leading , leading,False
+trailing, trailing ,False
+caps,CAPS,False
+shuffle,fluhs e,False
+final,lanif,True

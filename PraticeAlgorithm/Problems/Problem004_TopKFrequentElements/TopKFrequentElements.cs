@@ -45,6 +45,7 @@ namespace PraticeAlgorithm.Problems.Problem004_TopKFrequentElements
         public int[] Solve02(int[] nums, int k)
         {
             List<int> result = new List<int>();
+            var co = result.Count();
             Dictionary<int, int> countNums = new Dictionary<int, int>();
             foreach (int num in nums)
             {
@@ -52,13 +53,13 @@ namespace PraticeAlgorithm.Problems.Problem004_TopKFrequentElements
             }
            
             List<int>[] buckets = new List<int>[nums.Length + 1];
-            foreach (var i in countNums)
+            foreach (var num in countNums)
             {
-                int count = i.Value;
+                int count = num.Value;
                 if (buckets[count] is null)
-                    buckets[count] = [i.Key];
+                    buckets[count] = [num.Key];
                 else
-                    buckets[count].Add(i.Key);
+                    buckets[count].Add(num.Key);
             }
             for (int i = buckets.Length - 1; i >= 0 && result.Count < k; i--)
             {

@@ -1,5 +1,6 @@
 ﻿using PraticeAlgorithm.Problems;
 using Xunit;
+using Assert = Xunit.Assert;
 
 public class Problem01_MaxWaitedPackagesTests
 {
